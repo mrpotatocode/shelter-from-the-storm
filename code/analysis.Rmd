@@ -6,6 +6,7 @@ output:
     latex_engine: xelatex
   github_document:
     html_preview: false
+geometry: margin=2.3cm
 abstract: 'An exploratory data analysis was performed to examine if homeless shelter occupancy increases if the shelter is near a subway station. Using Open Data Toronto’s **Daily Shelter Occupancy, 2019** dataset and TTC subway locations, this relationship is explored in terms of whether shorter distance from a subway station can positively correlate to higher occupancy rates of shelters. A bivariate logistic regression was used to measure the variance in shelter occupancy rates by minimum distance from a subway station. A small, positive relationship was found at a significance level of p < .05. However, due to the positive skew of the data and possible covariates, conclusions from this regression have not been drawn at this time. Additionally, conclusions have been avoided with consideration to population vulnerability. Data processes and limitations are discussed in some depth and are intended for additional investigation and study replication.'
 urlcolor: blue
 ---
@@ -241,7 +242,7 @@ summary(glm.occ)
 ```
 
 ```{r glm results, echo = FALSE}
-tidy(glm.occ)
+kableExtra::kable(tidy(glm.occ))
 ```
 *Table 2*
 
@@ -307,15 +308,15 @@ p2 <- max_rate_furthest %>%
   scale_x_discrete(limits = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12))
 ```
 
-*Chart 1*
-```{r p1, fig.height=2.25, echo=FALSE}
+```{r p1, fig.height=2.25, echo=FALSE, message=FALSE, warning=FALSE}
 p1
 ```
+*Chart 1*
 
-*Chart 2*
-```{r p2, fig.width=9, fig.height=3.75, echo=FALSE}
+```{r p2, fig.width=9, fig.height=3.75, echo=FALSE, warning=FALSE, message=FALSE}
 p2
 ```
+*Chart 2*
 
 ## Conclusion
 

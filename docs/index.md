@@ -186,22 +186,125 @@ total shelter capacity. Confounding variables (e.g. shelter capacity and
 other forms of transit) and data skewness may explain the significance
 of this relationship.
 
-    ## # A tibble: 2 x 5
-    ##   term               estimate  std.error statistic  p.value
-    ##   <chr>                 <dbl>      <dbl>     <dbl>    <dbl>
-    ## 1 (Intercept)      -0.238     0.0136        -17.4  6.33e-68
-    ## 2 minimum_distance  0.0000131 0.00000551      2.37 1.77e- 2
+<table>
+
+<thead>
+
+<tr>
+
+<th style="text-align:left;">
+
+term
+
+</th>
+
+<th style="text-align:right;">
+
+estimate
+
+</th>
+
+<th style="text-align:right;">
+
+std.error
+
+</th>
+
+<th style="text-align:right;">
+
+statistic
+
+</th>
+
+<th style="text-align:right;">
+
+p.value
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;">
+
+(Intercept)
+
+</td>
+
+<td style="text-align:right;">
+
+\-0.2376420
+
+</td>
+
+<td style="text-align:right;">
+
+0.0136457
+
+</td>
+
+<td style="text-align:right;">
+
+\-17.415127
+
+</td>
+
+<td style="text-align:right;">
+
+0.0000000
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+minimum\_distance
+
+</td>
+
+<td style="text-align:right;">
+
+0.0000131
+
+</td>
+
+<td style="text-align:right;">
+
+0.0000055
+
+</td>
+
+<td style="text-align:right;">
+
+2.372854
+
+</td>
+
+<td style="text-align:right;">
+
+0.0176512
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 *Table 2*
 
-*Chart 1*
-![](2178-Problem-Set-2.final_files/figure-gfm/p1-1.png)<!-- -->
+![](analysis_files/figure-gfm/p1-1.png)<!-- --> *Chart 1*
 
-*Chart 2*
-
-    ## `geom_smooth()` using formula 'y ~ x'
-
-![](2178-Problem-Set-2.final_files/figure-gfm/p2-1.png)<!-- -->
+![](analysis_files/figure-gfm/p2-1.png)<!-- --> *Chart 2*
 
 ## Conclusion
 
