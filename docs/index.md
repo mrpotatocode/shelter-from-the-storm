@@ -303,9 +303,13 @@ minimum\_distance
 
 *Table 2*
 
-![Chart 1](imgs/p1-1.png)<!-- --> *Chart 1*
+![Chart 1](imgs/p1-1.png)<!-- --> 
 
-![Chart 2](imgs/p2-1.png)<!-- --> *Chart 2*
+*Chart 1*
+
+![Chart 2](imgs/p2-1.png)<!-- --> 
+
+*Chart 2*
 
 ## Conclusion
 
