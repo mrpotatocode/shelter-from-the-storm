@@ -1,4 +1,4 @@
-From Subway to Shelter: An Exploratory Analysis of the Relation Between Subway Station Location and Shelter Occupancy Rate
+# From Subway to Shelter: An Exploratory Analysis of the Relation Between Subway Station Location and Shelter Occupancy Rate
 
 [Paul Hodgetts](https://github.com/hodgettsp), [Thomas Rosenthal](https://github.com/mrpotatocode)
 
