@@ -4,6 +4,10 @@
 
 February 04, 2020
 
+### Abstract
+
+*An exploratory data analysis was performed to examine if homeless shelter occupancy increases if the shelter is near a subway station. Using Open Data Toronto’s **Daily Shelter Occupancy, 2019** dataset and TTC subway locations, this relationship is explored in terms of whether shorter distance from a subway station can positively correlate to higher occupancy rates of shelters. A bivariate logistic regression was used to measure the variance in shelter occupancy rates by minimum distance from a subway station. A small, positive relationship was found at a significance level of p < .05. However, due to the positive skew of the data and possible covariates, conclusions from this regression have not been drawn at this time. Additionally, conclusions have been avoided with consideration to population vulnerability. Data processes and limitations are discussed in some depth and are intended for additional investigation and study replication.*
+
 ## Introduction
 
 We all seek a place of rest and shelter. At the end of a long day, home
