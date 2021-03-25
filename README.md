@@ -1,4 +1,4 @@
-# shelter-from-the-storm
+# From Subway to Shelter
 
 This was Part 2 of Experimental Design coursework and intended to be an introduction to linear or logistic regression using open data sets to learn data science concepts.
 
